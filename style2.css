@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600");
+    background-size:cover;
+    background-position:center;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 70px;
+}
+
+.logo{
+    color:#ff3b3f;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#ff3b3f;
+}
+
+.hero{
+    height:85vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    text-decoration:none;
+    background:#ff3b3f;
+    color:white;
+    padding:15px 35px;
+    border-radius:5px;
+}
+
+section{
+    padding:70px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.about-box,
+.plan-container,
+.trainer-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.box,
+.plan,
+.card{
+    width:300px;
+    background:#222;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    transition:.4s;
+}
+
+.box:hover,
+.plan:hover,
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.plan h1{
+    color:#ff3b3f;
+    margin:15px 0;
+}
+
+.plan button{
+    margin-top:20px;
+    padding:10px 25px;
+    background:#ff3b3f;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.contact form{
+    width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+input,
+textarea{
+    padding:15px;
+    border:none;
+    border-radius:5px;
+}
+
+.contact button{
+    padding:15px;
+    background:#ff3b3f;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+}
